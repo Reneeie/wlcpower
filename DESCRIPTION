@@ -1,9 +1,9 @@
 Package: wlcpower
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tests New R Packages
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Yunyi Liu
+Maintainer: yunyi.liu@outlook.com
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
@@ -12,3 +12,7 @@ LazyData: true
 RoxygenNote: 7.1.2
 URL: https://github.com/Reneeie/wlcpower
 BugReports: https://github.com/Reneeie/wlcpower/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
